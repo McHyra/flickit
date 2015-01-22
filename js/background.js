@@ -1,9 +1,7 @@
-
-
 /* Click function for ext icon */
 function click(e) {
-    chrome.tabs.chery({ currentWindow: true, active: true }, function(tabs) {
-        alert("Click");
+    chrome.tabs.query({ currentWindow: true, active: true }, function(tabs) {
+        console.log("Click");
     });
 }
 
