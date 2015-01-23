@@ -23,7 +23,7 @@
                 "*://*/*"
             ],
             "js": [
-                "lib/jquery/dist/jquery.min.js"
+                "lib/jquery/jquery.min.js"
             ]
         }
     ],
